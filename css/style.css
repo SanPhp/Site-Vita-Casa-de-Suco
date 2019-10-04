@@ -1,0 +1,614 @@
+@font-face {
+    font-family: 'Bradley_Hand_ITC';
+    src: url('fonts/Bradley_Hand_ITC.eot');
+    src: url('fonts/Bradley_Hand_ITC.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Bradley_Hand_ITC.woff') format('woff'),
+         url('fonts/Bradley_Hand_ITC.ttf') format('truetype'),
+         url('fonts/Bradley_Hand_ITC.svg#Bradley_Hand_ITC') format('svg');
+    /*font-weight: 300;*/
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Kristen_ITC';
+    src: url('fonts/Kristen_ITC.eot');
+    src: url('fonts/Kristen_ITC.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Kristen_ITC.woff') format('woff'),
+         url('fonts/Kristen_ITC.ttf') format('truetype'),
+         url('fonts/Kristen_ITC.svg#Kristen_ITC') format('svg');
+   /*font-weight: 300;*/
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Androgyne_TB';
+    src: url('fonts/Androgyne_TB.eot');
+    src: url('fonts/Androgyne_TB.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Androgyne_TB.woff') format('woff'),
+         url('fonts/Androgyne_TB.ttf') format('truetype'),
+         url('fonts/Androgyne_TB.svg#Androgyne_TB') format('svg');
+    /*font-weight: 300;*/
+    font-style: normal;
+}
+@font-face {
+    font-family: 'segoe_script';
+    src: url('fonts/segoe_script.eot');
+    src: url('fonts/segoe_script.eot?#iefix') format('embedded-opentype'),
+         url('fonts/segoe_script.woff') format('woff'),
+         url('fonts/segoe_script.ttf') format('truetype'),
+         url('fonts/segoe_script.svg#segoe_script') format('svg');
+    /*font-weight: 300;*/
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Bernard_MT_Condensed';
+    src: url('fonts/Bernard_MT_Condensed.eot');
+    src: url('fonts/Bernard_MT_Condensed.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Bernard_MT_Condensed.woff') format('woff'),
+         url('fonts/Bernard_MT_Condensed.ttf') format('truetype'),
+         url('fonts/Bernard_MT_Condensed.svg#Bernard_MT_Condensed') format('svg');
+    /*font-weight: 300;*/
+    font-style: normal;
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+	font-size: small;
+}
+* img {
+	border: none;
+}
+body {
+	background: url(../estru/bg_body_total.png) no-repeat top center #F8CE92;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+section#all_conteudo {
+	width: 1000px;
+	height:auto;
+	margin: 0px auto 0px auto;
+}
+
+/*---------------------------- INDEX ------------------------------------*/
+
+header {
+	width: 1000px;
+	height: 160px;
+	border: 1px solid transparent;
+}
+header div.header_tel {
+	float: right;
+	margin: 20px 125px 0px 0px;
+	text-align: center;
+}
+header div.header_tel h3 {
+	font-family: Bradley_Hand_ITC, sans-serif;
+	color: #00441F;
+	font-size: 30px;
+	font-weight: lighter;
+}
+header div.header_tel p {
+	font-family: Bradley_Hand_ITC, sans-serif;
+	color: #fff;
+	font-size: 22px;
+	font-weight: bolder;
+	margin: -5px 0px 0px 0px;
+}
+
+h1 {
+	font-family: Kristen_ITC, "Comic Sans MS", cursive;
+	width: 390px;
+	height: 40px;
+	margin: 30px 0px 0px 330px;
+	color: #EC6D0C;
+	font-size: 32px;
+	font-weight: lighter;
+}
+
+nav.vertical {
+	width: 309px;
+	height: 450px;
+	background: url(../estru/bg_menu_vertical.png) no-repeat top center;
+	margin: 45px 0px 0px -55px;
+}
+nav.vertical img { /*LOGO*/
+	margin: 18px 0px 0px 110px;
+}
+nav.vertical ul {
+	width: 200px;
+	height: 270px;
+	margin: 18px 0px 0px 114px;
+	list-style: none;
+}
+nav.vertical ul li a {
+	font-family: segoe_script;
+	color: #fff;
+	font-size: 24px;
+	margin: 0px 0px 0px 0px;
+	text-decoration: none;
+}
+nav.vertical ul li a:hover {
+	color: #ffff00;
+}
+nav.vertical ul li a.active {
+	color: #ffff00;
+}
+
+nav.horizontal {
+	width: 605px;
+	height: 117px;
+	margin: 18px 0px 0px 308px;
+	background: url(../estru/bg_menu_horizontal.png) no-repeat top center;
+	padding: 25px 0px 0px 0px;
+	box-sizing: border-box;
+}
+nav.horizontal ul {
+	list-style: none;
+}
+nav.horizontal ul li {
+	list-style: none;
+	display: inline;
+}
+nav.horizontal ul li.menu_sucos {
+	margin: 0px 0px 0px 35px;
+}
+nav.horizontal ul li.menu_lanches {
+	margin: 0px 0px 0px 72px;
+}
+nav.horizontal ul li.menu_sobremesas {
+	margin: 0px 0px 0px 46px;
+}
+nav.horizontal ul li.menu_prato {
+	width: 159px;
+	height: 117px;
+	margin: 0px 0px 0px 63px;
+	padding: 0px 0px 0px 0px;
+	box-sizing: border-box;
+}
+
+nav.horizontal ul li a {
+	font-family: Kristen_ITC, sans-serif;
+	font-size: 20px;
+	color: #fff;
+	text-decoration: none;
+}
+nav.horizontal ul li a:hover {
+	color: #F90;
+}
+
+.hist_index {
+	width: 1000px;
+	height: 260px;
+	border: 1px solid transparent;
+	margin: 10px auto 0px auto;
+	background: url(../estru/bg_hist_index.png) no-repeat right top;
+}
+.hist_index article {
+	width: 550px;
+	height: 260px;
+	margin: 0px 0px 0px 50px;
+}
+
+.hist_index h2 {
+	font-family: Kristen_ITC, sans-serif;
+	font-size: 27px;
+	font-weight: lighter;
+	margin: 130px 0px 10px 0px;
+	color: #399F38;
+}
+.hist_index h2:first-letter {
+	font-family: Kristen_ITC, sans-serif;
+	font-size: 28px;
+	font-weight: bolder;
+	margin: 128px 2px 10px 0px;
+	color: #229D36;
+}
+.hist_index p {
+	font-family: Bradley_Hand_ITC, sans-serif;
+	font-size: 17px;
+	font-weight: bolder;
+	color: #B36116;
+	margin: 0px 0px 0px 20px;
+}
+
+div.saiba_mais {
+	width: 349px;
+	height: 112px;
+	float: right;
+	background: url(../estru/bg_saiba.png) no-repeat top center;
+	margin: 0px 105px 0px 0px;
+}
+div.saiba_mais p {
+	font-family: Kristen_ITC, sans-serif;
+	font-size: 19px;
+	color: #3EA13A;
+	margin: 15px 0px 0px 15px;
+}
+div.saiba_mais p.last {
+	margin: 0px 0px 7px 70px;
+}
+div.saiba_mais a {
+	font-family: Kristen_ITC, sans-serif;
+	font-size: 21px;
+	color: #BD671A;
+	margin: 20px 0px 0px 110px;
+	text-decoration: none;
+}
+div.saiba_mais a:hover {
+	font-family: Kristen_ITC, sans-serif;
+	font-size: 21px;
+	color: #F26100;
+	margin: 20px 0px 0px 110px;
+	text-decoration: none;
+}
+/*---------------------------- /INDEX ------------------------------------*/
+/*////////////////////////////////////////////////////////////////////////*/
+
+/*----------------------------- HISTORIA -----------------------------*/
+
+section#historia {
+	width: 1000px;
+}
+section#historia h1 {
+	font-family: Kristen_ITC, "Comic Sans MS", cursive;
+	width: 370px;
+	height: 40px;
+	margin: 30px 0px 0px 330px;
+	color: #EC6D0C;
+	font-size: 32px;
+	font-weight: lighter;
+}
+
+section#historia h2 {
+	font-family: Kristen_ITC, sans-serif;
+	font-size: 27px;
+	font-weight: lighter;
+	margin: 60px 0px 0px 450px;
+	color: #399F38;
+}
+section#historia h2:first-letter {
+	font-family: Kristen_ITC, sans-serif;
+	font-size: 28px;
+	font-weight: bolder;
+	margin: 128px 2px 10px 0px;
+	color: #229D36;
+}
+section#historia p {
+	width: 600px;
+	font-family: Bradley_Hand_ITC, sans-serif;
+	font-size: 23px;
+	color: #B3611B;
+	margin: 30px 0px 0px 310px;
+	text-align: center;
+	font-weight: bolder;
+}
+
+
+/*----------------------------- /HISTORIA -----------------------------*/
+/*////////////////////////////////////////////////////////////////////*/
+
+/*----------------------------- SUCOS -----------------------------*/
+
+
+section#sucos {
+	width: 1000px;
+}
+section#sucos h1 {
+	font-family: Kristen_ITC, "Comic Sans MS", cursive;
+	width: 400px;
+	height: 40px;
+	margin: 30px 0px 0px 330px;
+	color: #EC6D0C;
+	font-size: 32px;
+	font-weight: lighter;
+}
+
+section#sucos h2 {
+	font-family: Kristen_ITC, sans-serif;
+	font-size: 27px;
+	font-weight: lighter;
+	margin: 40px 0px 0px 450px;
+	color: #399F38;
+}
+section#sucos h2:nth-of-type(3), section#sucos h2:nth-of-type(4) {
+	color: #81A73D;
+}
+section#sucos h2:nth-of-type(4) {
+	color: #91BA43;
+}
+/*section#sucos h2:first-letter {
+	font-family: Kristen_ITC, sans-serif;
+	font-size: 28px;
+	font-weight: bolder;
+	margin: 128px 2px 10px 0px;
+	color: #229D36;
+}*/
+section#sucos p {
+	width: 480px;
+	font-family: Bradley_Hand_ITC;
+	font-size: 17px;
+	color: #B3611B;
+	margin: 40px 0px 50px 310px;
+	text-align: left;
+	font-weight: bolder;
+}
+section#sucos img {
+	float: left;
+	margin: 50px 0px 0px 180px;
+}
+
+/*----------------------------- /SUCOS -----------------------------*/
+/*//////////////////////////////////////////////////////////////////*/
+
+/*----------------------------- CARDAPIO -----------------------------*/
+
+section#cardapio {
+	width: 1000px;
+}
+section#cardapio:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	height: 0px;
+	overflow: hidden;
+}
+section#cardapio h1 {
+	font-family: Kristen_ITC, "Comic Sans MS", cursive;
+	width: 600px;
+	height: 90px;
+	margin: 30px 0px 0px 330px;
+	color: #EC6D0C;
+	font-size: 32px;
+	font-weight: lighter;
+	background: url(../estru/img_cardapio.png) no-repeat right center;
+}
+
+section#cardapio h4 {
+	font-family: Kristen_ITC, sans-serif;
+	font-size: 18px;
+	font-weight: lighter;
+	color: #399F38;
+	margin: 20px 0px 0px 0px;
+}
+section#cardapio p {
+	font-family: Kristen_ITC, sans-serif;
+	font-weight: lighter;
+	font-size: 15px;
+	margin: 0px 0px 5px 0px;
+	font-weight: 100;
+	color: #E0751B;
+}
+section#cardapio span {
+	font-size: 11px;
+	color: #9D3300;
+	font-family: Kristen_ITC, sans-serif;
+}
+section#cardapio article.col_1 {
+	width: 230px;
+	height: auto;
+	/*border: 1px solid black;*/
+	margin: 20px 0px -150px 260px;
+	float: left;
+}
+section#cardapio article.col_2 {
+	width: 230px;
+	height: auto;
+	/*border: 1px solid black;*/
+	margin: 20px 0px 0px 20px;
+	float: left;
+}
+section#cardapio article.col_3 {
+	width: 230px;
+	height: auto;
+	/*border: 1px solid black;*/
+	margin: 20px 0px 0px 20px;
+	float: left;
+}
+
+
+
+/*----------------------------- /CARDAPIO -----------------------------*/
+/*//////////////////////////////////////////////////////////////////*/
+
+/*----------------------------- LOCALIZACAO -----------------------------*/
+
+section#localizacao {
+	width: 1000px;
+}
+section#localizacao h1 {
+	font-family: Kristen_ITC, "Comic Sans MS", cursive;
+	width: 400px;
+	height: 40px;
+	margin: 30px 0px 0px 330px;
+	color: #EC6D0C;
+	font-size: 32px;
+	font-weight: lighter;
+}
+
+section#localizacao h2 {
+	font-family: Kristen_ITC, sans-serif;
+	font-size: 20px;
+	font-weight: lighter;
+	margin: 40px 0px 0px 330px;
+	color: #FF6600;
+}
+
+/*section#localizacao h2:first-letter {
+	font-family: Kristen_ITC, sans-serif;
+	font-size: 28px;
+	font-weight: bolder;
+	margin: 128px 2px 10px 0px;
+	color: #229D36;
+}*/
+section#localizacao p {
+	width: 480px;
+	font-family: Bradley_Hand_ITC;
+	font-size: 17px;
+	color: #498837;
+	margin: 40px 0px 50px 330px;
+	text-align: left;
+	font-weight: bolder;
+}
+
+section#localizacao div.mapa {
+	width: 596px;
+	height: 210px;
+	border: 3px solid #FF8000;
+	margin: 0px 0px 50px 330px;
+	border-radius: 10px; 
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+section#localizacao img {
+	float: left;
+	margin: 110px 0px 0px 55px;
+}
+section#localizacao h4 {
+	font-family: Kristen_ITC, sans-serif;
+	font-size: 15px;
+	color: #498837;
+	margin: 40px 0px 10px 330px;
+}
+section#localizacao iframe {
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	-webkit-border-radius: 10px; 
+}
+
+
+/*----------------------------- /LOCALIZACAO -----------------------------*/
+/*//////////////////////////////////////////////////////////////////*/
+
+/*----------------------------- CONTATO -----------------------------*/
+
+section#contato {
+	width: 1000px;
+}
+section#contato h1 {
+	font-family: Kristen_ITC, "Comic Sans MS", cursive;
+	width: 370px;
+	height: 40px;
+	margin: 30px 0px 0px 330px;
+	color: #EC6D0C;
+	font-size: 32px;
+	font-weight: lighter;
+}
+
+section#contato h2 {
+	font-family: Kristen_ITC, sans-serif;
+	font-size: 27px;
+	font-weight: lighter;
+	margin: 60px 0px 0px 450px;
+	color: #399F38;
+}
+
+section#contato p {
+	width: 630px;
+	height: 60px;
+	font-family: Bradley_Hand_ITC, sans-serif;
+	font-size: 19px;
+	color: #B3611B;
+	margin: 30px 0px 0px 330px;
+	text-align: center;
+	font-weight: bolder;
+	text-align: left;
+	background: url(../estru/bg_footer.png) no-repeat right 20px;
+}
+
+section#contato div.formulario {
+	width: 640px;
+	margin: 50px 0px 0px 330px;
+	background: url(../estru/bg_form.png) no-repeat right center;
+}
+
+form label {
+	font-family: Kristen_ITC, sans-serif;
+	display: block;
+	font-size: 16px;
+	color: #498837;
+	margin: 10px 0px 0px 0px;
+}
+form input {
+	font-family: Kristen_ITC, sans-serif;
+	width: 360px;
+	height: 39px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	background-color: transparent;
+	border: 1px solid #ff6600;
+	font-size: 18px;
+}
+form input[type="submit"] {
+	font-family: Kristen_ITC, sans-serif;
+	width: 150px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	background-color: transparent;
+	border: 1px solid #ff6600;
+	color: #498837;
+	font-size: 20px;
+	margin: 5px 0px 0px 213px;
+}
+form textarea {
+	font-family: Kristen_ITC, sans-serif;
+	width: 360px;
+	height: 130px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	background-color: transparent;
+	border: 1px solid #ff6600;
+	font-size: 18px;
+}
+
+label.error {
+	margin: 0px 0px 0px 0px;
+	color: #F00;
+}
+
+
+
+
+/*----------------------------- /CONTATO -----------------------------*/
+/*//////////////////////////////////////////////////////////////////*/
+/*---------------------------- FOOTER --------------------------------*/
+footer {
+	width: 1000px;
+	height: 75px;
+	margin: 130px 0px 0px 0px;
+	border: 1px solid transparent;
+	background: url(../estru/bg_footer.png) no-repeat left bottom;
+}
+footer p {
+	font-family: Kristen_ITC, sans-serif;
+	font-size: 16px;
+	color: #F26100;
+	margin: 49px 80px 0px 45px;
+	float: left;
+}
+footer span.direi{
+	font-family: Kristen_ITC, sans-serif;
+	font-size: 16px;
+	color: #F26100;
+	text-align: right;
+	display: block; 
+	margin: 10px 0px 0px 0px;
+}
+footer span.direi img {
+	margin: 0px 15px 0px 10px;
+}
+/*---------------------------- /FOOTER --------------------------------*/
+
