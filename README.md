@@ -6,6 +6,7 @@ como foi programado, mas na época foi muito importânte para mim testar novos c
 
 # Screenshots
 
-<img src="screenshots/1.png" width="300">
+<img src="screenshots/1.png" width="500">
+<img src="screenshots/2.png" width="500">
 
 
